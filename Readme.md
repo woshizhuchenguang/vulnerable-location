@@ -1,3 +1,8 @@
+## Environment
+
+Source2slice: clang-6.0 + llvm + dg 
+Data preprocess and Model training: python3.6.13 + tensorflow1.6.0 + keras2.1.2 + gensim3.4.0
+
 Model training ##
 
  bgru_CNN_zcg_fusion.py: Train the BGRU model which can locate the vulnerabilities and evaluate it. The input is the training dataset and the test dataset, and the output is the trained BGRU model.
